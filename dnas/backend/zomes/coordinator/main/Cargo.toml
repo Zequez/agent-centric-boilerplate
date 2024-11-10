@@ -1,0 +1,14 @@
+[package]
+name = "main"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "main"
+
+[dependencies]
+hdk = { workspace = true }
+serde = { workspace = true }
+
+main_integrity = { workspace = true } 
