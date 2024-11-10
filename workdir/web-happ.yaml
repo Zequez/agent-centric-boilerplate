@@ -1,0 +1,7 @@
+---
+manifest_version: "1"
+name: agent-centric-boilerplate
+ui:
+  bundled: "../ui/dist.zip"
+happ_manifest:
+  bundled: "./agent-centric-boilerplate.happ"
