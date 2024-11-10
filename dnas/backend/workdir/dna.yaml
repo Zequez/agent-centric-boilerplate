@@ -1,0 +1,10 @@
+---
+manifest_version: "1"
+name: backend
+integrity:
+  network_seed: ~
+  properties: ~
+  origin_time: 1731267570533563
+  zomes: []
+coordinator:
+  zomes: []

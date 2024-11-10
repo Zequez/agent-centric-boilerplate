@@ -2,4 +2,17 @@
 manifest_version: "1"
 name: agent-centric-boilerplate
 description: ~
-roles: []
+roles:
+  - name: backend
+    provisioning:
+      strategy: create
+      deferred: false
+    dna:
+      bundled: "../dnas/backend/workdir/backend.dna"
+      modifiers:
+        network_seed: ~
+        properties: ~
+        origin_time: ~
+        quantum_time: ~
+      installed_hash: ~
+      clone_limit: 0
