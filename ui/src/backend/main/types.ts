@@ -35,4 +35,14 @@ export type MainSignal = {
   link_type: string;
 };
 
-export type EntryTypes = {};
+/* dprint-ignore-start */
+export type EntryTypes =
+ | ({  type: 'Datum'; } & Datum);
+/* dprint-ignore-end */
+
+export interface Datum {
+  name: string;
+  dtype: string;
+  value: string;
+  uuid: string;
+}
